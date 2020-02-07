@@ -1,0 +1,297 @@
+
+body {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+    background: #e6e6e6;
+}
+
+a, button { transition: all 0.3s ease; }
+a:hover,
+a:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+p:last-child { margin-bottom: 0; }
+
+.page-wrap { 
+    max-width: 1400px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+    background: white;
+}
+
+.container-outer {
+    max-width: 1400px;
+    margin: 0 auto;    
+}
+
+.content-box { box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
+.text-gray { color: #787676; }
+
+.text-highlight {
+    color: #c66995;
+    font-weight: 600;
+}
+
+.bg-primary { background: #69c6ba; }
+.bg-highlight { background: #c66995; }
+
+.btn-primary {
+    background: #69c6ba;
+    border: none;
+    border-radius: 0;
+    outline: none;
+}
+
+.btn-primary:hover { background: #c66995; }
+.top-bar .navbar-expand-lg .navbar-nav .nav-link { padding: 50px 35px; }
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    z-index: 10000;
+    transition: all 0.2s ease-in-out;
+    height: 119px;
+    background: white;
+}
+
+.top-bar.active {
+    height: 60px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.top-bar.active .navbar-expand-lg .navbar-nav .nav-link { padding: 20px 35px; }
+.top-bar.active .navbar-brand { font-size: 1.4rem; }
+
+.top-bar .navbar-brand img {
+    width: 60px;
+    height: auto;
+}
+
+.top-bar.active .navbar-brand img { width: 40px; }
+.top-bar-bg { height: 119px; }
+.top-bar a { color: black; }
+
+.navbar-brand {
+	font-size: 2.2rem;    
+    text-transform: uppercase;    
+}
+
+.navbar {
+    font-weight: 700;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.nav-link.active, .nav-link:hover {	color: #69c6ba;	}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(104, 199, 187)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler { 
+    border-color: rgb(104, 199, 187);
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.banner-title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.banner-subtitle {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.banner-header { color: white; }
+.banner-overlay {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.7);
+}
+.banner-bg {
+    background: url(https://commercialpropertykenya.com/wp-content/uploads/2019/01/richland-pointe-development-kamiti-road-3-bedroom-apartments-introductory-offer-prices.jpg);    
+    min-height: 720px;
+    width: 100%;
+    position: relative;
+}
+.banner-row { 
+    position: relative;
+    z-index: 100;
+    justify-content: center;
+    padding-top: 100px;
+}
+.banner-row-header { text-align: center; }
+.down-arrow-link { 
+    color: white;
+    background-color: #69c6ba;
+    border-radius: 50%;
+    padding: 10px 15px;
+    margin-top: 0px;
+    display: inline-block;
+}
+
+.down-arrow-link:hover,
+.down-arrow-link:focus {
+    color: white;
+    background-color: #c66995;
+}
+
+/* Search form */
+select.tm-select.form-control:not([size]):not([multiple]) { height: 45px; }
+.form-control {
+    font-size: 0.8rem;
+    padding: .75rem;
+}
+label { font-weight: 700; }
+.search-form {
+    background-color: #f5f6f6;
+    padding: 25px 25px 15px;
+    width: 100%;
+    max-width: 830px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.form-group { float: left; }
+.form-group-pad { padding: 0 8px; }
+.form-group-1 { width: 50%; }
+.form-group-2 { width: 50%; }
+.form-group-3 { width: 25%; }
+.form-control { border-radius: 0; }
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 400;  
+    padding: 12px 20px;
+}
+
+.btn-white { background: white; }
+.btn-white-primary { color: #69c6ba; }
+.btn-white-highlight { color: #c66995; }
+
+.btn-white-primary:hover,
+.btn-white-primary:focus,
+.btn-white-primary:active {
+    background: #c66995;
+    color: white;
+}
+
+.btn-white-highlight:hover,
+.btn-white-highlight:focus,
+.btn-white-highlight:active {
+    background: #69c6ba;
+    color: white;
+}
+
+.btn-search { width: 100%; }
+
+.btn-search:hover,
+.btn-search:active,
+.btn-search:focus {
+    background: #c66995;
+}
+footer {
+  background: #69c6ba;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #900;
+}
+
+footer p {
+  color: white;
+}
+
+.footer-text-highlight {
+  color: white;
+  font-weight: 600;
+}
+
+.footer-text-highlight:hover {
+  color: #c66995;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .top-bar .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 15px 20px;
+        background: white;
+    }
+
+    .top-bar, .tm-top-bar-bg { height: auto; }
+
+    #mainNav {
+        width: 200px;
+        position: absolute;
+        top: 53px;
+        right: 15px;
+        -webkit-box-shadow: 0px 0px 7px 0px rgba(214,214,214,1);
+        -moz-box-shadow: 0px 0px 7px 0px rgba(214,214,214,1);
+        box-shadow: 0px 0px 7px 0px rgba(214,214,214,1);
+    }
+
+    .top-bar {
+        height: 60px;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+        display: flex;
+        align-items: center;
+    }
+
+    .top-bar.active .navbar-expand-lg .navbar-nav .nav-link,
+    .top-bar .navbar-expand-lg .navbar-nav .nav-link { padding: 15px; }
+
+    .top-bar .navbar-brand { font-size: 1.4rem; }
+
+    .top-bar .navbar-brand img {
+        width: 60px;
+        height: auto;
+    }
+
+    .top-bar .navbar-brand img { width: 40px; }
+
+    .tab-pane {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+
+
+@media screen and (max-width: 767px) {
+    .banner-row {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    .banner-header { margin-top: 100px; }
+
+    .form-group-1,
+    .form-group-2,
+    .form-group-3 {
+        width: 100%;
+    }    
+}
