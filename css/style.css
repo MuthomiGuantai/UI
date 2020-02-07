@@ -124,7 +124,6 @@ p:last-child { margin-bottom: 0; }
 .banner-bg {
     background: url(https://commercialpropertykenya.com/wp-content/uploads/2019/01/richland-pointe-development-kamiti-road-3-bedroom-apartments-introductory-offer-prices.jpg);    
     min-height: 720px;
-    width: 100%;
     position: relative;
 }
 .banner-row { 
@@ -207,8 +206,8 @@ label { font-weight: 700; }
 }
 footer {
   background: #69c6ba;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
   font-size: 0.8rem;
 }
@@ -295,3 +294,73 @@ footer p {
         width: 100%;
     }    
 }
+/* Tabs */
+.tabs-links {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: space-evenly;
+    -webkit-justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    background: #69c6ba;
+  }
+  
+  .tab-link {
+    padding: 30px 25px;
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    font-size: 0.9rem;
+    height: 100%;
+  }
+  
+  .tab-link:hover {
+    color: white;
+  }
+  
+  .tab-link-li {
+    background: transparent;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    transition: all 0.3s ease;
+  }
+  
+  .tab-link:hover,
+  .tab-link.active {
+    background: #c66995;
+  }
+  
+  .tab-pane {
+    max-width: 970px;
+    margin: 60px auto;
+  }
+  .position-relative {
+    position: relative;
+  }
+ 
